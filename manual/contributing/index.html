@@ -89,7 +89,7 @@
 <h2 id="build-the-website">Build the website</h2>
 <p>Run <code>npm run docs:dev</code> for local authoring. Run <code>npm run check:docs</code> before review.</p>
 <p>The check validates metadata, stable IDs, local links, navigation, generated agent indexes, style, and the production website build.</p>
-<p>The GitHub Pages workflow deploys documentation from <code>main</code> to the <code>manual/</code> directory of the public <code>rainerweston/goblin-node-docs</code> repository. Pull requests build the same website without publishing it. The publishing workflow requires the <code>DOCS_DEPLOY_TOKEN</code> secret and preserves the repository’s root legal Pages files.</p>
+<p>The GitHub Pages workflow deploys documentation from <code>main</code> to the <code>manual/</code> directory of the public <code>rainerweston/goblin-node-docs</code> repository. Pull requests build the same website without publishing it. The publishing workflow requires the <code>DOCS_DEPLOY_TOKEN</code> secret, preserves the repository’s root legal Pages files, and leaves Jekyll enabled so those Markdown pages continue rendering.</p>
 <p>Node explanations live in <code>node-reference-content.json</code>. Do not add parameters, ports, categories, or Pro status to that file.</p>
 <p>Run <code>npm run docs:generate</code> after a node contract changes. The generator derives factual node data and creates the public node-reference index.</p>
 <p>Recipe graph packages and preview illustrations are deterministic generated artifacts. Change their generator instead of editing those files.</p>

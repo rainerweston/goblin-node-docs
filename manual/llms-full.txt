@@ -55,7 +55,7 @@ Run `npm run docs:dev` for local authoring. Run `npm run check:docs` before revi
 
 The check validates metadata, stable IDs, local links, navigation, generated agent indexes, style, and the production website build.
 
-The GitHub Pages workflow deploys documentation from `main` to the `manual/` directory of the public `rainerweston/goblin-node-docs` repository. Pull requests build the same website without publishing it. The publishing workflow requires the `DOCS_DEPLOY_TOKEN` secret and preserves the repository's root legal Pages files.
+The GitHub Pages workflow deploys documentation from `main` to the `manual/` directory of the public `rainerweston/goblin-node-docs` repository. Pull requests build the same website without publishing it. The publishing workflow requires the `DOCS_DEPLOY_TOKEN` secret, preserves the repository's root legal Pages files, and leaves Jekyll enabled so those Markdown pages continue rendering.
 
 Node explanations live in `node-reference-content.json`. Do not add parameters, ports, categories, or Pro status to that file.
 
