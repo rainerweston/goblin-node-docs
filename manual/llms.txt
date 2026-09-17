@@ -1,0 +1,133 @@
+# Goblin Node Manual
+
+Goblin Node is a procedural texture graph editor. The canonical user documentation is Markdown in this repository.
+
+- [Contribute to the user manual](https://rainerweston.github.io/goblin-node-docs/manual/contributing/): Write and review clear, accurate Goblin Node user documentation.
+- [Animation and Time](https://rainerweston.github.io/goblin-node-docs/manual/concepts/animation/): Understand frame ranges, playback time, looping, and animation export.
+- [Bit depth](https://rainerweston.github.io/goblin-node-docs/manual/concepts/bit-depth/): Choose between ordinary, high-precision, and floating-point graph processing.
+- [How graph flow works](https://rainerweston.github.io/goblin-node-docs/manual/concepts/graph-flow/): Understand how nodes, ports, and connections produce a texture.
+- [Local and web persistence](https://rainerweston.github.io/goblin-node-docs/manual/concepts/persistence/): Understand where Goblin Node stores graphs and assets on each runtime.
+- [Ports and image channels](https://rainerweston.github.io/goblin-node-docs/manual/concepts/ports-and-channels/): Understand typed connections and grayscale, RGB, and RGBA image data.
+- [Resolution inheritance](https://rainerweston.github.io/goblin-node-docs/manual/concepts/resolution-inheritance/): Understand how a node selects its output width and height.
+- [Goblin Node Manual](https://rainerweston.github.io/goblin-node-docs/manual/index/): Build procedural textures with practical guides and precise reference pages.
+- [Basic animated texture](https://rainerweston.github.io/goblin-node-docs/manual/recipes/basic-animated-texture/): Preview normalized Time across a fixed 60-frame range.
+- [First procedural texture](https://rainerweston.github.io/goblin-node-docs/manual/recipes/first-procedural-texture/): Import a fixed checker graph and explore its pattern scale.
+- [Hard-surface panel](https://rainerweston.github.io/goblin-node-docs/manual/recipes/hard-surface-panel/): Turn a checker mask into a beveled panel base.
+- [Organic noise material](https://rainerweston.github.io/goblin-node-docs/manual/recipes/organic-noise-material/): Explore a fixed Perlin Noise, Box Blur, and Levels chain.
+- [Stylized retro texture](https://rainerweston.github.io/goblin-node-docs/manual/recipes/stylized-retro-texture/): Quantize a gradient into a small set of visible bands.
+- [Manual downloads](https://rainerweston.github.io/goblin-node-docs/manual/reference/downloads/): Download the current Goblin Node manual and find immutable release copies.
+- [What's new](https://rainerweston.github.io/goblin-node-docs/manual/reference/whats-new/): Find the authoritative Goblin Node release notes and version history.
+- [Make your first texture](https://rainerweston.github.io/goblin-node-docs/manual/start-here/first-texture/): Build and adjust a procedural checker texture in about five minutes.
+- [The preview is blank](https://rainerweston.github.io/goblin-node-docs/manual/troubleshooting/blank-preview/): Restore a blank Selected preview or Output preview.
+- [Connect nodes](https://rainerweston.github.io/goblin-node-docs/manual/workflows/connect-nodes/): Send an output from one node into an input on another node.
+- [Export textures](https://rainerweston.github.io/goblin-node-docs/manual/workflows/export-textures/): Export one graph output or a set of outputs as image files.
+- [Import assets](https://rainerweston.github.io/goblin-node-docs/manual/workflows/import-assets/): Add source images and palette files to the asset catalog.
+- [Import or export a graph package](https://rainerweston.github.io/goblin-node-docs/manual/workflows/import-export-graphs/): Move graphs or a custom node library between Goblin Node installations.
+- [Manage graphs in the Project Browser](https://rainerweston.github.io/goblin-node-docs/manual/workflows/manage-projects/): Create, rename, organize, restore, and permanently remove graphs.
+- [Preview graph results](https://rainerweston.github.io/goblin-node-docs/manual/workflows/preview-results/): Inspect one node, a graph output, or a material in three dimensions.
+- [Save a graph](https://rainerweston.github.io/goblin-node-docs/manual/workflows/save-graphs/): Preserve graph changes and recover from a failed save.
+- [Image](https://rainerweston.github.io/goblin-node-docs/manual/nodes/image/): Loads an imported bitmap asset and outputs it as the graph source image.
+- [Checker](https://rainerweston.github.io/goblin-node-docs/manual/nodes/checker/): Generates a clean checker pattern for quick masks, tiling tests, and scale reference.
+- [Gradient](https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradient/): Builds a simple directional, radial, or circular gradient source for masks and value ramps.
+- [Polygon](https://rainerweston.github.io/goblin-node-docs/manual/nodes/polygon/): Creates parametric polygon shapes with controllable sides, scale, and edge behavior.
+- [Shape](https://rainerweston.github.io/goblin-node-docs/manual/nodes/shape/): Generates primitive procedural shapes for high-contrast masks and form blockouts.
+- [Solid Color](https://rainerweston.github.io/goblin-node-docs/manual/nodes/solid/): Outputs a uniform color fill used as a flat base layer or blend backdrop.
+- [Text](https://rainerweston.github.io/goblin-node-docs/manual/nodes/text/): Renders text glyphs as an image source for decals, labels, and mask-driven layouts.
+- [Paint](https://rainerweston.github.io/goblin-node-docs/manual/nodes/paint/): Lets you paint freeform strokes over a selectable background using an interactive brush overlay.
+- [Atlas Pack](https://rainerweston.github.io/goblin-node-docs/manual/nodes/atlasPack/): Packs up to 16 input images onto a grid to create a single atlas texture.
+- [Atlas Split](https://rainerweston.github.io/goblin-node-docs/manual/nodes/atlasSplit/): Splits an atlas texture into individual cell outputs based on a grid layout.
+- [Shape Extrude](https://rainerweston.github.io/goblin-node-docs/manual/nodes/shapeExtrude/): Extrudes a 2D shape into a 3D heightmap with bevel, profile, and rotation controls.
+- [Fractal Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/fractal/): Generates multi-octave noise for terrain-like breakup, roughness masks, and natural material variation.
+- [Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/noise/): Outputs uniform random grayscale noise for grain, dithering masks, and stochastic variation passes.
+- [Perlin Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/perlin-noise/): Produces smooth gradient noise for organic shapes, cloud patterns, and soft mask modulation.
+- [Voronoi](https://rainerweston.github.io/goblin-node-docs/manual/nodes/voronoi/): Builds cell-based distance patterns for cracks, stone segmentation, and tiled region masks.
+- [Simplex Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/simplexNoise/): Produces isotropic noise with fewer directional artifacts than Perlin for organic material variation.
+- [Gabor Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/gaborNoise/): Produces textured noise from Gabor wavelets for synthetic fur, brush strokes, and fibrous material effects, with fractal FBM support.
+- [Crystal Noise](https://rainerweston.github.io/goblin-node-docs/manual/nodes/crystalNoise/): Generates crystalline crack patterns with branching segments radiating from cell centers for shattered glass or mineral vein effects.
+- [BnW Spots](https://rainerweston.github.io/goblin-node-docs/manual/nodes/bnwSpots/): Generates black and white spot patterns using a multi-layer cell-based spot grid for organic speckle, dither, or stipple effects.
+- [Splatter Circular](https://rainerweston.github.io/goblin-node-docs/manual/nodes/splatterCircular/): Scatters a pattern in a circular distribution.
+- [Tile Generator](https://rainerweston.github.io/goblin-node-docs/manual/nodes/tileGenerator/): Creates configurable tile layouts with grout-like spacing for bricks, panels, and floor pattern bases.
+- [Auto Levels](https://rainerweston.github.io/goblin-node-docs/manual/nodes/auto_levels/): Auto-normalizes luminance range by remapping darkest and brightest pixels to improve contrast quickly.
+- [Combine RGBA](https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineRGB/): Combines separate R, G, B, and optional A inputs into a single packed color texture.
+- [Combine HSB](https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineHSB/): Combines normalized hue, saturation, and brightness masks into an opaque RGB texture.
+- [Combine Alpha](https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineAlpha/): Merges a color input with a separate alpha mask to produce a composited RGBA output.
+- [Gradient (Dynamic)](https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradientDynamic/): Maps values through editable gradient stops to art-direct color ramps directly in-graph.
+- [Gradient Map](https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradientMap/): Recolors grayscale input by sampling a gradient ramp, ideal for stylized material palettes.
+- [Grayscale](https://rainerweston.github.io/goblin-node-docs/manual/nodes/grayscale/): Converts color input to grayscale intensity for mask extraction and value-driven downstream nodes.
+- [Histogram Range](https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramRange/): Remaps histogram bounds to isolate a value band and expand it across the output range.
+- [Histogram Scan](https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramScan/): Moves a scanning threshold window through tonal values to create animatable mask slices.
+- [Histogram Select](https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramSelect/): Selects a narrow intensity region around a pivot value for precise tonal masking.
+- [HSL Adjustment](https://rainerweston.github.io/goblin-node-docs/manual/nodes/hsl/): Adjusts hue, saturation, and lightness for fast global color correction and palette iteration.
+- [Invert](https://rainerweston.github.io/goblin-node-docs/manual/nodes/invert/): Inverts channel values to flip light/dark relationships for negative masks and quick alternates.
+- [Levels](https://rainerweston.github.io/goblin-node-docs/manual/nodes/levels/): Manually remaps black, mid, and white points for controlled contrast and tonal balancing.
+- [Palette Extract](https://rainerweston.github.io/goblin-node-docs/manual/nodes/paletteExtract/): Extracts dominant colors from the input to build a reduced palette for downstream quantization.
+- [Palettize](https://rainerweston.github.io/goblin-node-docs/manual/nodes/palettize/): Constrains an image to a fixed palette for posterized, stylized, or limited-color looks.
+- [Quantize](https://rainerweston.github.io/goblin-node-docs/manual/nodes/quantize/): Reduces tonal precision into discrete value steps for banded gradients and retro shading.
+- [Separate RGBA](https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateRGB/): Splits RGBA input into independent R, G, B, and A outputs for per-channel processing.
+- [Separate HSB](https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateHSB/): Splits an image into normalized hue, saturation, and brightness grayscale masks.
+- [Separate Alpha](https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateAlpha/): Separates color and alpha into distinct outputs so coverage can be edited independently.
+- [Threshold](https://rainerweston.github.io/goblin-node-docs/manual/nodes/threshold/): Converts values to a binary mask around a cutoff, useful for hard selections and stencils.
+- [Curves](https://rainerweston.github.io/goblin-node-docs/manual/nodes/curves/): Applies curve-based tonal remapping for fine-grained contrast shaping across the value range.
+- [Box Blur](https://rainerweston.github.io/goblin-node-docs/manual/nodes/box-blur/): Applies an even box blur to soften detail, spread masks, or prepare maps for blending.
+- [Directional Blur](https://rainerweston.github.io/goblin-node-docs/manual/nodes/directionalBlur/): Blurs along a chosen direction to create motion streaks or anisotropic smearing effects.
+- [Radial Blur](https://rainerweston.github.io/goblin-node-docs/manual/nodes/radialBlur/): Blurs outward or around a center point for zoom, spin, and lens-like smear effects.
+- [Blur HQ](https://rainerweston.github.io/goblin-node-docs/manual/nodes/blur_hq/): Runs higher-quality blur sampling for smoother falloff with fewer blocky artifacts.
+- [Non-Uniform Blur](https://rainerweston.github.io/goblin-node-docs/manual/nodes/nonUniformBlur/): Applies a customizable blur driven by an external map with anisotropy and asymmetry controls.
+- [Anisotropic Kuwahara](https://rainerweston.github.io/goblin-node-docs/manual/nodes/anisotropicKuwahara/): Applies edge-aware anisotropic smoothing for painterly stylization while preserving major shape flow.
+- [Highpass](https://rainerweston.github.io/goblin-node-docs/manual/nodes/highpass/): Isolates high-frequency detail by removing low-frequency content, useful for sharpening workflows.
+- [Channel Swizzle](https://rainerweston.github.io/goblin-node-docs/manual/nodes/channelSwizzle/): Reassigns each output RGBA channel from any input channel or a constant zero or one.
+- [FXAA](https://rainerweston.github.io/goblin-node-docs/manual/nodes/fxaa/): Smooths jagged shape edges with fast approximate anti-aliasing.
+- [Median](https://rainerweston.github.io/goblin-node-docs/manual/nodes/median/): Removes impulse noise while preserving edges using neighborhood median filtering.
+- [Sharpen](https://rainerweston.github.io/goblin-node-docs/manual/nodes/sharpen/): Enhances local contrast around edges to recover crispness after blur or resampling.
+- [Slope Blur](https://rainerweston.github.io/goblin-node-docs/manual/nodes/slopeBlur/): Smears along gradient direction from a slope input to create erosion-like directional breakup.
+- [Coordinates Transform](https://rainerweston.github.io/goblin-node-docs/manual/nodes/coordinatesTransform/): Reprojects UV coordinates with scale, rotation, and offset controls before sampling.
+- [Directional Warp](https://rainerweston.github.io/goblin-node-docs/manual/nodes/directionalWarp/): Offsets pixels along a vector direction driven by an intensity map for flow distortion.
+- [Multi Directional Warp](https://rainerweston.github.io/goblin-node-docs/manual/nodes/multiDirectionalWarp/): Applies directional warp multiple times in opposite directions and blends the results.
+- [Kaleidoscope](https://rainerweston.github.io/goblin-node-docs/manual/nodes/kaleidoscope/): Mirrors and rotates wedges around a center to generate radial symmetry patterns.
+- [Mirror](https://rainerweston.github.io/goblin-node-docs/manual/nodes/mirror/): Reflects the image across configurable axes for seamless symmetry and mirrored layouts.
+- [Quick Tile](https://rainerweston.github.io/goblin-node-docs/manual/nodes/quickTile/): Tiles the input with seam-aware transforms for repeatable patterns and texture atlasing.
+- [Clone Stamp](https://rainerweston.github.io/goblin-node-docs/manual/nodes/cloneStamp/): Copies pixels from a source point into a target brush region for scan cleanup.
+- [Quad Transform](https://rainerweston.github.io/goblin-node-docs/manual/nodes/quadTransform/): Warps an image to an arbitrary four-corner quad for perspective-style remapping.
+- [Skew](https://rainerweston.github.io/goblin-node-docs/manual/nodes/skew/): Shears the image horizontally or vertically to create angular perspective distortion.
+- [Trapezoid Transform](https://rainerweston.github.io/goblin-node-docs/manual/nodes/trapezoidTransform/): Applies trapezoid perspective warping to taper one side of the sampled image.
+- [Transform](https://rainerweston.github.io/goblin-node-docs/manual/nodes/transform/): Performs core 2D transform operations like translate, rotate, and scale in one node.
+- [Safe Transform](https://rainerweston.github.io/goblin-node-docs/manual/nodes/safeTransform/): Transforms tiled images with pixel-snapped offsets and crisp nearest-neighbor sampling.
+- [Image Sample](https://rainerweston.github.io/goblin-node-docs/manual/nodes/imageSample/): Samples an image with normalized UV coordinates supplied by a color map.
+- [Vector Warp](https://rainerweston.github.io/goblin-node-docs/manual/nodes/vectorWarp/): Displaces pixels with red and green vector-map channels for precisely directed distortion.
+- [Warp](https://rainerweston.github.io/goblin-node-docs/manual/nodes/warp/): Displaces sampling coordinates with a warp map to bend shapes and break up repetition.
+- [Swirl](https://rainerweston.github.io/goblin-node-docs/manual/nodes/swirl/): Rotates pixels around a center point with distance-weighted intensity for spiral distortion.
+- [Spherize](https://rainerweston.github.io/goblin-node-docs/manual/nodes/spherize/): Warps pixels outward (pinch) or inward (expand) around a center point for spherical lens effects.
+- [Bevel](https://rainerweston.github.io/goblin-node-docs/manual/nodes/bevel/): Generates beveled height and normal outputs from input masks for edge definition and relief.
+- [Curvature](https://rainerweston.github.io/goblin-node-docs/manual/nodes/curvature/): Calculates convex and concave curvature cues from surface detail for wear and mask generation.
+- [Distance](https://rainerweston.github.io/goblin-node-docs/manual/nodes/distance/): Computes distance-to-feature fields for falloffs, edge bands, and expansion masks.
+- [Dilate / Erode](https://rainerweston.github.io/goblin-node-docs/manual/nodes/dilateErode/): Expands or contracts binary masks with a signed radius slider.
+- [Edge Detect](https://rainerweston.github.io/goblin-node-docs/manual/nodes/edgeDetect/): Extracts edge lines from luminance changes to build outlines and feature masks.
+- [Emboss](https://rainerweston.github.io/goblin-node-docs/manual/nodes/emboss/): Simulates raised or recessed relief lighting from height-like input to emphasize form.
+- [Flood Fill](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFill/): Labels connected regions to produce per-island IDs, bounds, and region analysis outputs.
+- [Flood Fill Random Grayscale](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillRandomGrayscale/): Assigns random grayscale values per flood-filled region for quick island separation masks.
+- [Flood Fill to Grayscale/Color](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToGrayscaleColor/): Samples one grayscale or color value per flood-filled region, then fills the region with it.
+- [Flood Fill to BBox Size](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToBBoxSize/): Converts Flood Fill bounding-box dimensions into a grayscale per-region size map.
+- [Flood Fill To Index](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToIndex/): Converts Flood Fill region IDs into a grayscale index map.
+- [Flood Fill to Gradient](https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToGradient/): Converts flood-filled regions into directional gradients for procedural directional masks.
+- [Ambient Occlusion](https://rainerweston.github.io/goblin-node-docs/manual/nodes/hbao/): Approximates ambient occlusion from height data to add contact shadowing and depth cues.
+- [Auto Crop](https://rainerweston.github.io/goblin-node-docs/manual/nodes/autoCrop/): Finds content bounds and fits the result to the canvas.
+- [Normal Combine](https://rainerweston.github.io/goblin-node-docs/manual/nodes/normalCombine/): Combines detail from two normal maps with normal-aware math.
+- [Normal Map](https://rainerweston.github.io/goblin-node-docs/manual/nodes/normalMap/): Converts height detail into tangent-space normals for lighting-aware material workflows.
+- [Blend](https://rainerweston.github.io/goblin-node-docs/manual/nodes/blend/): Combines two inputs with selectable blend modes and opacity-style control.
+- [Height Blend](https://rainerweston.github.io/goblin-node-docs/manual/nodes/heightBlend/): Blends surfaces using height-aware masking to preserve layered material relief.
+- [Average Blend](https://rainerweston.github.io/goblin-node-docs/manual/nodes/averageBlend/): Averages multiple inputs into a balanced composite, useful for noise and detail mixing.
+- [Switch](https://rainerweston.github.io/goblin-node-docs/manual/nodes/switch/): Outputs one of two inputs based on a control state for branching material variants.
+- [Multi Switch](https://rainerweston.github.io/goblin-node-docs/manual/nodes/multiSwitch/): Selects one input from multiple branches, enabling indexed graph routing.
+- [Input](https://rainerweston.github.io/goblin-node-docs/manual/nodes/graphInput/): Defines external input ports that feed data into a reusable subgraph interface.
+- [Instance](https://rainerweston.github.io/goblin-node-docs/manual/nodes/graphInstance/): References another saved graph and executes it as a nested node with mapped ports.
+- [Output](https://rainerweston.github.io/goblin-node-docs/manual/nodes/graph-output/): Declares external output ports that expose selected results from the current subgraph.
+- [Float](https://rainerweston.github.io/goblin-node-docs/manual/nodes/value/): Emits a constant float scalar for driving numeric parameters and math-style controls.
+- [Bool](https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueBool/): Emits a constant boolean flag for toggles and conditional branch controls.
+- [Int](https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueInt/): Emits a constant integer for stepped parameters, indices, and discrete selectors.
+- [Time](https://rainerweston.github.io/goblin-node-docs/manual/nodes/time/): Emits the current animation time as seconds, a frame index, or normalized progress.
+- [Enum](https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueEnum/): Emits a selectable enum option for mode switching and indexed logic.
+- [Vec2](https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueVec2/): Emits a constant 2D vector for offsets, directions, and coordinate parameter inputs.
+- [Math](https://rainerweston.github.io/goblin-node-docs/manual/nodes/math/): Performs mathematical operations on two values.
+- [Dot](https://rainerweston.github.io/goblin-node-docs/manual/nodes/dot/): Creates labeled reroute points to organize noodle paths without changing signal data.
+- [Frame](https://rainerweston.github.io/goblin-node-docs/manual/nodes/frame/): Groups related nodes inside a labeled frame to improve graph structure and readability.
+- [Comment](https://rainerweston.github.io/goblin-node-docs/manual/nodes/comment/): Places textual annotations on the canvas to document intent, notes, and TODOs.

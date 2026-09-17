@@ -1,0 +1,2872 @@
+{
+  "schema_version": 1,
+  "generated_from": "docs/manual",
+  "pages": [
+    {
+      "id": "contributing.manual",
+      "title": "Contribute to the user manual",
+      "description": "Write and review clear, accurate Goblin Node user documentation.",
+      "kind": "reference",
+      "audience": "advanced",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation"
+      ],
+      "related_features": [
+        "manual-authoring"
+      ],
+      "source": "docs/manual/CONTRIBUTING.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/contributing/"
+    },
+    {
+      "id": "concepts.animation",
+      "title": "Animation and Time",
+      "description": "Understand frame ranges, playback time, looping, and animation export.",
+      "kind": "concept",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "texture-engine",
+        "export"
+      ],
+      "related_features": [
+        "animation",
+        "node-time",
+        "animation-export"
+      ],
+      "source": "docs/manual/concepts/animation.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/animation/"
+    },
+    {
+      "id": "concepts.bit-depth",
+      "title": "Bit depth",
+      "description": "Choose between ordinary, high-precision, and floating-point graph processing.",
+      "kind": "concept",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "texture-engine",
+        "export"
+      ],
+      "related_features": [
+        "bit-depth",
+        "export-formats"
+      ],
+      "source": "docs/manual/concepts/bit-depth.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/bit-depth/"
+    },
+    {
+      "id": "concepts.graph-flow",
+      "title": "How graph flow works",
+      "description": "Understand how nodes, ports, and connections produce a texture.",
+      "kind": "concept",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "texture-engine"
+      ],
+      "related_features": [
+        "graph-connections",
+        "graph-rendering"
+      ],
+      "source": "docs/manual/concepts/graph-flow.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/graph-flow/"
+    },
+    {
+      "id": "concepts.persistence",
+      "title": "Local and web persistence",
+      "description": "Understand where Goblin Node stores graphs and assets on each runtime.",
+      "kind": "concept",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "project-browser",
+        "persistence"
+      ],
+      "related_features": [
+        "local-first-storage",
+        "web-storage",
+        "graph-history"
+      ],
+      "source": "docs/manual/concepts/persistence.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/persistence/"
+    },
+    {
+      "id": "concepts.ports-and-channels",
+      "title": "Ports and image channels",
+      "description": "Understand typed connections and grayscale, RGB, and RGBA image data.",
+      "kind": "concept",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "ports",
+        "image-formats"
+      ],
+      "source": "docs/manual/concepts/ports-and-channels.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/ports-and-channels/"
+    },
+    {
+      "id": "concepts.resolution-inheritance",
+      "title": "Resolution inheritance",
+      "description": "Understand how a node selects its output width and height.",
+      "kind": "concept",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "texture-engine"
+      ],
+      "related_features": [
+        "render-resolution",
+        "resolution-inheritance"
+      ],
+      "source": "docs/manual/concepts/resolution-inheritance.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/concepts/resolution-inheritance/"
+    },
+    {
+      "id": "manual.home",
+      "title": "Goblin Node Manual",
+      "description": "Build procedural textures with practical guides and precise reference pages.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation"
+      ],
+      "related_features": [
+        "manual-navigation"
+      ],
+      "source": "docs/manual/index.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/index/"
+    },
+    {
+      "id": "recipes.basic-animated-texture",
+      "title": "Basic animated texture",
+      "description": "Preview normalized Time across a fixed 60-frame range.",
+      "kind": "recipe",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "editor",
+        "texture-engine"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "animation",
+        "node-time"
+      ],
+      "source": "docs/manual/recipes/basic-animated-texture.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/recipes/basic-animated-texture/"
+    },
+    {
+      "id": "recipes.first-procedural-texture",
+      "title": "First procedural texture",
+      "description": "Import a fixed checker graph and explore its pattern scale.",
+      "kind": "recipe",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "editor"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "node-checker"
+      ],
+      "source": "docs/manual/recipes/first-procedural-texture.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/recipes/first-procedural-texture/"
+    },
+    {
+      "id": "recipes.hard-surface-panel",
+      "title": "Hard-surface panel",
+      "description": "Turn a checker mask into a beveled panel base.",
+      "kind": "recipe",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "texture-engine"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "node-checker",
+        "node-bevel"
+      ],
+      "source": "docs/manual/recipes/hard-surface-panel.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/recipes/hard-surface-panel/"
+    },
+    {
+      "id": "recipes.organic-noise-material",
+      "title": "Organic noise material",
+      "description": "Explore a fixed Perlin Noise, Box Blur, and Levels chain.",
+      "kind": "recipe",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "texture-engine"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "node-perlin",
+        "node-blur",
+        "node-levels"
+      ],
+      "source": "docs/manual/recipes/organic-noise-material.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/recipes/organic-noise-material/"
+    },
+    {
+      "id": "recipes.stylized-retro-texture",
+      "title": "Stylized retro texture",
+      "description": "Quantize a gradient into a small set of visible bands.",
+      "kind": "recipe",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "texture-engine"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "node-gradient",
+        "node-quantize"
+      ],
+      "source": "docs/manual/recipes/stylized-retro-texture.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/recipes/stylized-retro-texture/"
+    },
+    {
+      "id": "reference.downloads",
+      "title": "Manual downloads",
+      "description": "Download the current Goblin Node manual and find immutable release copies.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation"
+      ],
+      "related_features": [
+        "manual-pdf",
+        "release-documentation"
+      ],
+      "source": "docs/manual/reference/downloads.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/reference/downloads/"
+    },
+    {
+      "id": "reference.whats-new",
+      "title": "What's new",
+      "description": "Find the authoritative Goblin Node release notes and version history.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "documentation",
+        "release"
+      ],
+      "related_features": [
+        "release-documentation"
+      ],
+      "source": "docs/manual/reference/whats-new.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/reference/whats-new/"
+    },
+    {
+      "id": "start.first-texture",
+      "title": "Make your first texture",
+      "description": "Build and adjust a procedural checker texture in about five minutes.",
+      "kind": "tutorial",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "documentation"
+      ],
+      "related_features": [
+        "graph-editing",
+        "node-library",
+        "output-preview"
+      ],
+      "source": "docs/manual/start-here/first-texture.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/start-here/first-texture/"
+    },
+    {
+      "id": "troubleshooting.blank-preview",
+      "title": "The preview is blank",
+      "description": "Restore a blank Selected preview or Output preview.",
+      "kind": "troubleshooting",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "texture-engine"
+      ],
+      "related_features": [
+        "selected-preview",
+        "output-preview",
+        "graph-connections"
+      ],
+      "source": "docs/manual/troubleshooting/blank-preview.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/troubleshooting/blank-preview/"
+    },
+    {
+      "id": "editor.connect-nodes",
+      "title": "Connect nodes",
+      "description": "Send an output from one node into an input on another node.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor"
+      ],
+      "related_features": [
+        "graph-connections"
+      ],
+      "source": "docs/manual/workflows/connect-nodes.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/connect-nodes/"
+    },
+    {
+      "id": "workflows.export-textures",
+      "title": "Export textures",
+      "description": "Export one graph output or a set of outputs as image files.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "export"
+      ],
+      "related_features": [
+        "export",
+        "batch-export",
+        "animation-export"
+      ],
+      "source": "docs/manual/workflows/export-textures.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/export-textures/"
+    },
+    {
+      "id": "workflows.import-assets",
+      "title": "Import assets",
+      "description": "Add source images and palette files to the asset catalog.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "project-browser"
+      ],
+      "related_features": [
+        "asset-import",
+        "native-image-picker",
+        "palette-assets"
+      ],
+      "source": "docs/manual/workflows/import-assets.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/import-assets/"
+    },
+    {
+      "id": "workflows.import-export-graphs",
+      "title": "Import or export a graph package",
+      "description": "Move graphs or a custom node library between Goblin Node installations.",
+      "kind": "workflow",
+      "audience": "intermediate",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "project-browser"
+      ],
+      "related_features": [
+        "graph-transfer",
+        "node-library",
+        "collections"
+      ],
+      "source": "docs/manual/workflows/import-export-graphs.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/import-export-graphs/"
+    },
+    {
+      "id": "workflows.manage-projects",
+      "title": "Manage graphs in the Project Browser",
+      "description": "Create, rename, organize, restore, and permanently remove graphs.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "project-browser"
+      ],
+      "related_features": [
+        "catalog",
+        "collections",
+        "trash"
+      ],
+      "source": "docs/manual/workflows/manage-projects.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/manage-projects/"
+    },
+    {
+      "id": "workflows.preview-results",
+      "title": "Preview graph results",
+      "description": "Inspect one node, a graph output, or a material in three dimensions.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor"
+      ],
+      "related_features": [
+        "selected-preview",
+        "output-preview",
+        "preview-3d"
+      ],
+      "source": "docs/manual/workflows/preview-results.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/preview-results/"
+    },
+    {
+      "id": "workflows.save-graphs",
+      "title": "Save a graph",
+      "description": "Preserve graph changes and recover from a failed save.",
+      "kind": "workflow",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "editor",
+        "persistence"
+      ],
+      "related_features": [
+        "project-save",
+        "autosave",
+        "local-first-storage"
+      ],
+      "source": "docs/manual/workflows/save-graphs.md",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/workflows/save-graphs/"
+    },
+    {
+      "id": "nodes.image",
+      "title": "Image",
+      "description": "Loads an imported bitmap asset and outputs it as the graph source image.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-image"
+      ],
+      "source": "docs/manual/node-reference-content.json#image",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/image/"
+    },
+    {
+      "id": "nodes.checker",
+      "title": "Checker",
+      "description": "Generates a clean checker pattern for quick masks, tiling tests, and scale reference.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-checker"
+      ],
+      "source": "docs/manual/node-reference-content.json#checker",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/checker/"
+    },
+    {
+      "id": "nodes.gradient",
+      "title": "Gradient",
+      "description": "Builds a simple directional, radial, or circular gradient source for masks and value ramps.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-gradient"
+      ],
+      "source": "docs/manual/node-reference-content.json#gradient",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradient/"
+    },
+    {
+      "id": "nodes.polygon",
+      "title": "Polygon",
+      "description": "Creates parametric polygon shapes with controllable sides, scale, and edge behavior.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-polygon"
+      ],
+      "source": "docs/manual/node-reference-content.json#polygon",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/polygon/"
+    },
+    {
+      "id": "nodes.shape",
+      "title": "Shape",
+      "description": "Generates primitive procedural shapes for high-contrast masks and form blockouts.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-shape"
+      ],
+      "source": "docs/manual/node-reference-content.json#shape",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/shape/"
+    },
+    {
+      "id": "nodes.solid",
+      "title": "Solid Color",
+      "description": "Outputs a uniform color fill used as a flat base layer or blend backdrop.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-solid"
+      ],
+      "source": "docs/manual/node-reference-content.json#solid",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/solid/"
+    },
+    {
+      "id": "nodes.text",
+      "title": "Text",
+      "description": "Renders text glyphs as an image source for decals, labels, and mask-driven layouts.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-text"
+      ],
+      "source": "docs/manual/node-reference-content.json#text",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/text/"
+    },
+    {
+      "id": "nodes.paint",
+      "title": "Paint",
+      "description": "Lets you paint freeform strokes over a selectable background using an interactive brush overlay.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-paint"
+      ],
+      "source": "docs/manual/node-reference-content.json#paint",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/paint/"
+    },
+    {
+      "id": "nodes.atlasPack",
+      "title": "Atlas Pack",
+      "description": "Packs up to 16 input images onto a grid to create a single atlas texture.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-atlasPack"
+      ],
+      "source": "docs/manual/node-reference-content.json#atlasPack",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/atlasPack/"
+    },
+    {
+      "id": "nodes.atlasSplit",
+      "title": "Atlas Split",
+      "description": "Splits an atlas texture into individual cell outputs based on a grid layout.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-atlasSplit"
+      ],
+      "source": "docs/manual/node-reference-content.json#atlasSplit",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/atlasSplit/"
+    },
+    {
+      "id": "nodes.shapeExtrude",
+      "title": "Shape Extrude",
+      "description": "Extrudes a 2D shape into a 3D heightmap with bevel, profile, and rotation controls.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-shapeExtrude"
+      ],
+      "source": "docs/manual/node-reference-content.json#shapeExtrude",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/shapeExtrude/"
+    },
+    {
+      "id": "nodes.fractal",
+      "title": "Fractal Noise",
+      "description": "Generates multi-octave noise for terrain-like breakup, roughness masks, and natural material variation.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-fractal"
+      ],
+      "source": "docs/manual/node-reference-content.json#fractal",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/fractal/"
+    },
+    {
+      "id": "nodes.noise",
+      "title": "Noise",
+      "description": "Outputs uniform random grayscale noise for grain, dithering masks, and stochastic variation passes.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-noise"
+      ],
+      "source": "docs/manual/node-reference-content.json#noise",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/noise/"
+    },
+    {
+      "id": "nodes.perlin-noise",
+      "title": "Perlin Noise",
+      "description": "Produces smooth gradient noise for organic shapes, cloud patterns, and soft mask modulation.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-perlin"
+      ],
+      "source": "docs/manual/node-reference-content.json#perlin",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/perlin-noise/"
+    },
+    {
+      "id": "nodes.voronoi",
+      "title": "Voronoi",
+      "description": "Builds cell-based distance patterns for cracks, stone segmentation, and tiled region masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-voronoi"
+      ],
+      "source": "docs/manual/node-reference-content.json#voronoi",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/voronoi/"
+    },
+    {
+      "id": "nodes.simplexNoise",
+      "title": "Simplex Noise",
+      "description": "Produces isotropic noise with fewer directional artifacts than Perlin for organic material variation.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-simplexNoise"
+      ],
+      "source": "docs/manual/node-reference-content.json#simplexNoise",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/simplexNoise/"
+    },
+    {
+      "id": "nodes.gaborNoise",
+      "title": "Gabor Noise",
+      "description": "Produces textured noise from Gabor wavelets for synthetic fur, brush strokes, and fibrous material effects, with fractal FBM support.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-gaborNoise"
+      ],
+      "source": "docs/manual/node-reference-content.json#gaborNoise",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/gaborNoise/"
+    },
+    {
+      "id": "nodes.crystalNoise",
+      "title": "Crystal Noise",
+      "description": "Generates crystalline crack patterns with branching segments radiating from cell centers for shattered glass or mineral vein effects.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-crystalNoise"
+      ],
+      "source": "docs/manual/node-reference-content.json#crystalNoise",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/crystalNoise/"
+    },
+    {
+      "id": "nodes.bnwSpots",
+      "title": "BnW Spots",
+      "description": "Generates black and white spot patterns using a multi-layer cell-based spot grid for organic speckle, dither, or stipple effects.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-bnwSpots"
+      ],
+      "source": "docs/manual/node-reference-content.json#bnwSpots",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/bnwSpots/"
+    },
+    {
+      "id": "nodes.splatterCircular",
+      "title": "Splatter Circular",
+      "description": "Scatters a pattern in a circular distribution.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-splatterCircular"
+      ],
+      "source": "docs/manual/node-reference-content.json#splatterCircular",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/splatterCircular/"
+    },
+    {
+      "id": "nodes.tileGenerator",
+      "title": "Tile Generator",
+      "description": "Creates configurable tile layouts with grout-like spacing for bricks, panels, and floor pattern bases.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-tileGenerator"
+      ],
+      "source": "docs/manual/node-reference-content.json#tileGenerator",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/tileGenerator/"
+    },
+    {
+      "id": "nodes.auto_levels",
+      "title": "Auto Levels",
+      "description": "Auto-normalizes luminance range by remapping darkest and brightest pixels to improve contrast quickly.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-auto_levels"
+      ],
+      "source": "docs/manual/node-reference-content.json#auto_levels",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/auto_levels/"
+    },
+    {
+      "id": "nodes.combineRGB",
+      "title": "Combine RGBA",
+      "description": "Combines separate R, G, B, and optional A inputs into a single packed color texture.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-combineRGB"
+      ],
+      "source": "docs/manual/node-reference-content.json#combineRGB",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineRGB/"
+    },
+    {
+      "id": "nodes.combineHSB",
+      "title": "Combine HSB",
+      "description": "Combines normalized hue, saturation, and brightness masks into an opaque RGB texture.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-combineHSB"
+      ],
+      "source": "docs/manual/node-reference-content.json#combineHSB",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineHSB/"
+    },
+    {
+      "id": "nodes.combineAlpha",
+      "title": "Combine Alpha",
+      "description": "Merges a color input with a separate alpha mask to produce a composited RGBA output.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-combineAlpha"
+      ],
+      "source": "docs/manual/node-reference-content.json#combineAlpha",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/combineAlpha/"
+    },
+    {
+      "id": "nodes.gradientDynamic",
+      "title": "Gradient (Dynamic)",
+      "description": "Maps values through editable gradient stops to art-direct color ramps directly in-graph.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-gradientDynamic"
+      ],
+      "source": "docs/manual/node-reference-content.json#gradientDynamic",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradientDynamic/"
+    },
+    {
+      "id": "nodes.gradientMap",
+      "title": "Gradient Map",
+      "description": "Recolors grayscale input by sampling a gradient ramp, ideal for stylized material palettes.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-gradientMap"
+      ],
+      "source": "docs/manual/node-reference-content.json#gradientMap",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/gradientMap/"
+    },
+    {
+      "id": "nodes.grayscale",
+      "title": "Grayscale",
+      "description": "Converts color input to grayscale intensity for mask extraction and value-driven downstream nodes.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-grayscale"
+      ],
+      "source": "docs/manual/node-reference-content.json#grayscale",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/grayscale/"
+    },
+    {
+      "id": "nodes.histogramRange",
+      "title": "Histogram Range",
+      "description": "Remaps histogram bounds to isolate a value band and expand it across the output range.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-histogramRange"
+      ],
+      "source": "docs/manual/node-reference-content.json#histogramRange",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramRange/"
+    },
+    {
+      "id": "nodes.histogramScan",
+      "title": "Histogram Scan",
+      "description": "Moves a scanning threshold window through tonal values to create animatable mask slices.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-histogramScan"
+      ],
+      "source": "docs/manual/node-reference-content.json#histogramScan",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramScan/"
+    },
+    {
+      "id": "nodes.histogramSelect",
+      "title": "Histogram Select",
+      "description": "Selects a narrow intensity region around a pivot value for precise tonal masking.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-histogramSelect"
+      ],
+      "source": "docs/manual/node-reference-content.json#histogramSelect",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/histogramSelect/"
+    },
+    {
+      "id": "nodes.hsl",
+      "title": "HSL Adjustment",
+      "description": "Adjusts hue, saturation, and lightness for fast global color correction and palette iteration.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-hsl"
+      ],
+      "source": "docs/manual/node-reference-content.json#hsl",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/hsl/"
+    },
+    {
+      "id": "nodes.invert",
+      "title": "Invert",
+      "description": "Inverts channel values to flip light/dark relationships for negative masks and quick alternates.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-invert"
+      ],
+      "source": "docs/manual/node-reference-content.json#invert",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/invert/"
+    },
+    {
+      "id": "nodes.levels",
+      "title": "Levels",
+      "description": "Manually remaps black, mid, and white points for controlled contrast and tonal balancing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-levels"
+      ],
+      "source": "docs/manual/node-reference-content.json#levels",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/levels/"
+    },
+    {
+      "id": "nodes.paletteExtract",
+      "title": "Palette Extract",
+      "description": "Extracts dominant colors from the input to build a reduced palette for downstream quantization.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-paletteExtract"
+      ],
+      "source": "docs/manual/node-reference-content.json#paletteExtract",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/paletteExtract/"
+    },
+    {
+      "id": "nodes.palettize",
+      "title": "Palettize",
+      "description": "Constrains an image to a fixed palette for posterized, stylized, or limited-color looks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-palettize"
+      ],
+      "source": "docs/manual/node-reference-content.json#palettize",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/palettize/"
+    },
+    {
+      "id": "nodes.quantize",
+      "title": "Quantize",
+      "description": "Reduces tonal precision into discrete value steps for banded gradients and retro shading.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-quantize"
+      ],
+      "source": "docs/manual/node-reference-content.json#quantize",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/quantize/"
+    },
+    {
+      "id": "nodes.separateRGB",
+      "title": "Separate RGBA",
+      "description": "Splits RGBA input into independent R, G, B, and A outputs for per-channel processing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-separateRGB"
+      ],
+      "source": "docs/manual/node-reference-content.json#separateRGB",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateRGB/"
+    },
+    {
+      "id": "nodes.separateHSB",
+      "title": "Separate HSB",
+      "description": "Splits an image into normalized hue, saturation, and brightness grayscale masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-separateHSB"
+      ],
+      "source": "docs/manual/node-reference-content.json#separateHSB",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateHSB/"
+    },
+    {
+      "id": "nodes.separateAlpha",
+      "title": "Separate Alpha",
+      "description": "Separates color and alpha into distinct outputs so coverage can be edited independently.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-separateAlpha"
+      ],
+      "source": "docs/manual/node-reference-content.json#separateAlpha",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/separateAlpha/"
+    },
+    {
+      "id": "nodes.threshold",
+      "title": "Threshold",
+      "description": "Converts values to a binary mask around a cutoff, useful for hard selections and stencils.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-threshold"
+      ],
+      "source": "docs/manual/node-reference-content.json#threshold",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/threshold/"
+    },
+    {
+      "id": "nodes.curves",
+      "title": "Curves",
+      "description": "Applies curve-based tonal remapping for fine-grained contrast shaping across the value range.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-curves"
+      ],
+      "source": "docs/manual/node-reference-content.json#curves",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/curves/"
+    },
+    {
+      "id": "nodes.box-blur",
+      "title": "Box Blur",
+      "description": "Applies an even box blur to soften detail, spread masks, or prepare maps for blending.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-blur"
+      ],
+      "source": "docs/manual/node-reference-content.json#blur",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/box-blur/"
+    },
+    {
+      "id": "nodes.directionalBlur",
+      "title": "Directional Blur",
+      "description": "Blurs along a chosen direction to create motion streaks or anisotropic smearing effects.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-directionalBlur"
+      ],
+      "source": "docs/manual/node-reference-content.json#directionalBlur",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/directionalBlur/"
+    },
+    {
+      "id": "nodes.radialBlur",
+      "title": "Radial Blur",
+      "description": "Blurs outward or around a center point for zoom, spin, and lens-like smear effects.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-radialBlur"
+      ],
+      "source": "docs/manual/node-reference-content.json#radialBlur",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/radialBlur/"
+    },
+    {
+      "id": "nodes.blur_hq",
+      "title": "Blur HQ",
+      "description": "Runs higher-quality blur sampling for smoother falloff with fewer blocky artifacts.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-blur_hq"
+      ],
+      "source": "docs/manual/node-reference-content.json#blur_hq",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/blur_hq/"
+    },
+    {
+      "id": "nodes.nonUniformBlur",
+      "title": "Non-Uniform Blur",
+      "description": "Applies a customizable blur driven by an external map with anisotropy and asymmetry controls.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-nonUniformBlur"
+      ],
+      "source": "docs/manual/node-reference-content.json#nonUniformBlur",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/nonUniformBlur/"
+    },
+    {
+      "id": "nodes.anisotropicKuwahara",
+      "title": "Anisotropic Kuwahara",
+      "description": "Applies edge-aware anisotropic smoothing for painterly stylization while preserving major shape flow.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-anisotropicKuwahara"
+      ],
+      "source": "docs/manual/node-reference-content.json#anisotropicKuwahara",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/anisotropicKuwahara/"
+    },
+    {
+      "id": "nodes.highpass",
+      "title": "Highpass",
+      "description": "Isolates high-frequency detail by removing low-frequency content, useful for sharpening workflows.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-highpass"
+      ],
+      "source": "docs/manual/node-reference-content.json#highpass",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/highpass/"
+    },
+    {
+      "id": "nodes.channelSwizzle",
+      "title": "Channel Swizzle",
+      "description": "Reassigns each output RGBA channel from any input channel or a constant zero or one.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-channelSwizzle"
+      ],
+      "source": "docs/manual/node-reference-content.json#channelSwizzle",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/channelSwizzle/"
+    },
+    {
+      "id": "nodes.fxaa",
+      "title": "FXAA",
+      "description": "Smooths jagged shape edges with fast approximate anti-aliasing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-fxaa"
+      ],
+      "source": "docs/manual/node-reference-content.json#fxaa",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/fxaa/"
+    },
+    {
+      "id": "nodes.median",
+      "title": "Median",
+      "description": "Removes impulse noise while preserving edges using neighborhood median filtering.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-median"
+      ],
+      "source": "docs/manual/node-reference-content.json#median",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/median/"
+    },
+    {
+      "id": "nodes.sharpen",
+      "title": "Sharpen",
+      "description": "Enhances local contrast around edges to recover crispness after blur or resampling.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-sharpen"
+      ],
+      "source": "docs/manual/node-reference-content.json#sharpen",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/sharpen/"
+    },
+    {
+      "id": "nodes.slopeBlur",
+      "title": "Slope Blur",
+      "description": "Smears along gradient direction from a slope input to create erosion-like directional breakup.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-slopeBlur"
+      ],
+      "source": "docs/manual/node-reference-content.json#slopeBlur",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/slopeBlur/"
+    },
+    {
+      "id": "nodes.coordinatesTransform",
+      "title": "Coordinates Transform",
+      "description": "Reprojects UV coordinates with scale, rotation, and offset controls before sampling.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-coordinatesTransform"
+      ],
+      "source": "docs/manual/node-reference-content.json#coordinatesTransform",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/coordinatesTransform/"
+    },
+    {
+      "id": "nodes.directionalWarp",
+      "title": "Directional Warp",
+      "description": "Offsets pixels along a vector direction driven by an intensity map for flow distortion.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-directionalWarp"
+      ],
+      "source": "docs/manual/node-reference-content.json#directionalWarp",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/directionalWarp/"
+    },
+    {
+      "id": "nodes.multiDirectionalWarp",
+      "title": "Multi Directional Warp",
+      "description": "Applies directional warp multiple times in opposite directions and blends the results.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-multiDirectionalWarp"
+      ],
+      "source": "docs/manual/node-reference-content.json#multiDirectionalWarp",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/multiDirectionalWarp/"
+    },
+    {
+      "id": "nodes.kaleidoscope",
+      "title": "Kaleidoscope",
+      "description": "Mirrors and rotates wedges around a center to generate radial symmetry patterns.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-kaleidoscope"
+      ],
+      "source": "docs/manual/node-reference-content.json#kaleidoscope",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/kaleidoscope/"
+    },
+    {
+      "id": "nodes.mirror",
+      "title": "Mirror",
+      "description": "Reflects the image across configurable axes for seamless symmetry and mirrored layouts.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-mirror"
+      ],
+      "source": "docs/manual/node-reference-content.json#mirror",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/mirror/"
+    },
+    {
+      "id": "nodes.quickTile",
+      "title": "Quick Tile",
+      "description": "Tiles the input with seam-aware transforms for repeatable patterns and texture atlasing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-quickTile"
+      ],
+      "source": "docs/manual/node-reference-content.json#quickTile",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/quickTile/"
+    },
+    {
+      "id": "nodes.cloneStamp",
+      "title": "Clone Stamp",
+      "description": "Copies pixels from a source point into a target brush region for scan cleanup.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-cloneStamp"
+      ],
+      "source": "docs/manual/node-reference-content.json#cloneStamp",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/cloneStamp/"
+    },
+    {
+      "id": "nodes.quadTransform",
+      "title": "Quad Transform",
+      "description": "Warps an image to an arbitrary four-corner quad for perspective-style remapping.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-quadTransform"
+      ],
+      "source": "docs/manual/node-reference-content.json#quadTransform",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/quadTransform/"
+    },
+    {
+      "id": "nodes.skew",
+      "title": "Skew",
+      "description": "Shears the image horizontally or vertically to create angular perspective distortion.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-skew"
+      ],
+      "source": "docs/manual/node-reference-content.json#skew",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/skew/"
+    },
+    {
+      "id": "nodes.trapezoidTransform",
+      "title": "Trapezoid Transform",
+      "description": "Applies trapezoid perspective warping to taper one side of the sampled image.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-trapezoidTransform"
+      ],
+      "source": "docs/manual/node-reference-content.json#trapezoidTransform",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/trapezoidTransform/"
+    },
+    {
+      "id": "nodes.transform",
+      "title": "Transform",
+      "description": "Performs core 2D transform operations like translate, rotate, and scale in one node.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-transform"
+      ],
+      "source": "docs/manual/node-reference-content.json#transform",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/transform/"
+    },
+    {
+      "id": "nodes.safeTransform",
+      "title": "Safe Transform",
+      "description": "Transforms tiled images with pixel-snapped offsets and crisp nearest-neighbor sampling.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-safeTransform"
+      ],
+      "source": "docs/manual/node-reference-content.json#safeTransform",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/safeTransform/"
+    },
+    {
+      "id": "nodes.imageSample",
+      "title": "Image Sample",
+      "description": "Samples an image with normalized UV coordinates supplied by a color map.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-imageSample"
+      ],
+      "source": "docs/manual/node-reference-content.json#imageSample",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/imageSample/"
+    },
+    {
+      "id": "nodes.vectorWarp",
+      "title": "Vector Warp",
+      "description": "Displaces pixels with red and green vector-map channels for precisely directed distortion.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-vectorWarp"
+      ],
+      "source": "docs/manual/node-reference-content.json#vectorWarp",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/vectorWarp/"
+    },
+    {
+      "id": "nodes.warp",
+      "title": "Warp",
+      "description": "Displaces sampling coordinates with a warp map to bend shapes and break up repetition.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-warp"
+      ],
+      "source": "docs/manual/node-reference-content.json#warp",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/warp/"
+    },
+    {
+      "id": "nodes.swirl",
+      "title": "Swirl",
+      "description": "Rotates pixels around a center point with distance-weighted intensity for spiral distortion.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-swirl"
+      ],
+      "source": "docs/manual/node-reference-content.json#swirl",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/swirl/"
+    },
+    {
+      "id": "nodes.spherize",
+      "title": "Spherize",
+      "description": "Warps pixels outward (pinch) or inward (expand) around a center point for spherical lens effects.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-spherize"
+      ],
+      "source": "docs/manual/node-reference-content.json#spherize",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/spherize/"
+    },
+    {
+      "id": "nodes.bevel",
+      "title": "Bevel",
+      "description": "Generates beveled height and normal outputs from input masks for edge definition and relief.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-bevel"
+      ],
+      "source": "docs/manual/node-reference-content.json#bevel",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/bevel/"
+    },
+    {
+      "id": "nodes.curvature",
+      "title": "Curvature",
+      "description": "Calculates convex and concave curvature cues from surface detail for wear and mask generation.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-curvature"
+      ],
+      "source": "docs/manual/node-reference-content.json#curvature",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/curvature/"
+    },
+    {
+      "id": "nodes.distance",
+      "title": "Distance",
+      "description": "Computes distance-to-feature fields for falloffs, edge bands, and expansion masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-distance"
+      ],
+      "source": "docs/manual/node-reference-content.json#distance",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/distance/"
+    },
+    {
+      "id": "nodes.dilateErode",
+      "title": "Dilate / Erode",
+      "description": "Expands or contracts binary masks with a signed radius slider.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-dilateErode"
+      ],
+      "source": "docs/manual/node-reference-content.json#dilateErode",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/dilateErode/"
+    },
+    {
+      "id": "nodes.edgeDetect",
+      "title": "Edge Detect",
+      "description": "Extracts edge lines from luminance changes to build outlines and feature masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-edgeDetect"
+      ],
+      "source": "docs/manual/node-reference-content.json#edgeDetect",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/edgeDetect/"
+    },
+    {
+      "id": "nodes.emboss",
+      "title": "Emboss",
+      "description": "Simulates raised or recessed relief lighting from height-like input to emphasize form.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-emboss"
+      ],
+      "source": "docs/manual/node-reference-content.json#emboss",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/emboss/"
+    },
+    {
+      "id": "nodes.floodFill",
+      "title": "Flood Fill",
+      "description": "Labels connected regions to produce per-island IDs, bounds, and region analysis outputs.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFill"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFill",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFill/"
+    },
+    {
+      "id": "nodes.floodFillRandomGrayscale",
+      "title": "Flood Fill Random Grayscale",
+      "description": "Assigns random grayscale values per flood-filled region for quick island separation masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFillRandomGrayscale"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFillRandomGrayscale",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillRandomGrayscale/"
+    },
+    {
+      "id": "nodes.floodFillToGrayscaleColor",
+      "title": "Flood Fill to Grayscale/Color",
+      "description": "Samples one grayscale or color value per flood-filled region, then fills the region with it.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFillToGrayscaleColor"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFillToGrayscaleColor",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToGrayscaleColor/"
+    },
+    {
+      "id": "nodes.floodFillToBBoxSize",
+      "title": "Flood Fill to BBox Size",
+      "description": "Converts Flood Fill bounding-box dimensions into a grayscale per-region size map.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFillToBBoxSize"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFillToBBoxSize",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToBBoxSize/"
+    },
+    {
+      "id": "nodes.floodFillToIndex",
+      "title": "Flood Fill To Index",
+      "description": "Converts Flood Fill region IDs into a grayscale index map.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFillToIndex"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFillToIndex",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToIndex/"
+    },
+    {
+      "id": "nodes.floodFillToGradient",
+      "title": "Flood Fill to Gradient",
+      "description": "Converts flood-filled regions into directional gradients for procedural directional masks.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-floodFillToGradient"
+      ],
+      "source": "docs/manual/node-reference-content.json#floodFillToGradient",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/floodFillToGradient/"
+    },
+    {
+      "id": "nodes.hbao",
+      "title": "Ambient Occlusion",
+      "description": "Approximates ambient occlusion from height data to add contact shadowing and depth cues.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-hbao"
+      ],
+      "source": "docs/manual/node-reference-content.json#hbao",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/hbao/"
+    },
+    {
+      "id": "nodes.autoCrop",
+      "title": "Auto Crop",
+      "description": "Finds content bounds and fits the result to the canvas.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-autoCrop"
+      ],
+      "source": "docs/manual/node-reference-content.json#autoCrop",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/autoCrop/"
+    },
+    {
+      "id": "nodes.normalCombine",
+      "title": "Normal Combine",
+      "description": "Combines detail from two normal maps with normal-aware math.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-normalCombine"
+      ],
+      "source": "docs/manual/node-reference-content.json#normalCombine",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/normalCombine/"
+    },
+    {
+      "id": "nodes.normalMap",
+      "title": "Normal Map",
+      "description": "Converts height detail into tangent-space normals for lighting-aware material workflows.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-normalMap"
+      ],
+      "source": "docs/manual/node-reference-content.json#normalMap",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/normalMap/"
+    },
+    {
+      "id": "nodes.blend",
+      "title": "Blend",
+      "description": "Combines two inputs with selectable blend modes and opacity-style control.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-blend"
+      ],
+      "source": "docs/manual/node-reference-content.json#blend",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/blend/"
+    },
+    {
+      "id": "nodes.heightBlend",
+      "title": "Height Blend",
+      "description": "Blends surfaces using height-aware masking to preserve layered material relief.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-heightBlend"
+      ],
+      "source": "docs/manual/node-reference-content.json#heightBlend",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/heightBlend/"
+    },
+    {
+      "id": "nodes.averageBlend",
+      "title": "Average Blend",
+      "description": "Averages multiple inputs into a balanced composite, useful for noise and detail mixing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-averageBlend"
+      ],
+      "source": "docs/manual/node-reference-content.json#averageBlend",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/averageBlend/"
+    },
+    {
+      "id": "nodes.switch",
+      "title": "Switch",
+      "description": "Outputs one of two inputs based on a control state for branching material variants.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-switch"
+      ],
+      "source": "docs/manual/node-reference-content.json#switch",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/switch/"
+    },
+    {
+      "id": "nodes.multiSwitch",
+      "title": "Multi Switch",
+      "description": "Selects one input from multiple branches, enabling indexed graph routing.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-multiSwitch"
+      ],
+      "source": "docs/manual/node-reference-content.json#multiSwitch",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/multiSwitch/"
+    },
+    {
+      "id": "nodes.graphInput",
+      "title": "Input",
+      "description": "Defines external input ports that feed data into a reusable subgraph interface.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-graphInput"
+      ],
+      "source": "docs/manual/node-reference-content.json#graphInput",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/graphInput/"
+    },
+    {
+      "id": "nodes.graphInstance",
+      "title": "Instance",
+      "description": "References another saved graph and executes it as a nested node with mapped ports.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-graphInstance"
+      ],
+      "source": "docs/manual/node-reference-content.json#graphInstance",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/graphInstance/"
+    },
+    {
+      "id": "nodes.graph-output",
+      "title": "Output",
+      "description": "Declares external output ports that expose selected results from the current subgraph.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-graphOutput"
+      ],
+      "source": "docs/manual/node-reference-content.json#graphOutput",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/graph-output/"
+    },
+    {
+      "id": "nodes.value",
+      "title": "Float",
+      "description": "Emits a constant float scalar for driving numeric parameters and math-style controls.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-value"
+      ],
+      "source": "docs/manual/node-reference-content.json#value",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/value/"
+    },
+    {
+      "id": "nodes.valueBool",
+      "title": "Bool",
+      "description": "Emits a constant boolean flag for toggles and conditional branch controls.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-valueBool"
+      ],
+      "source": "docs/manual/node-reference-content.json#valueBool",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueBool/"
+    },
+    {
+      "id": "nodes.valueInt",
+      "title": "Int",
+      "description": "Emits a constant integer for stepped parameters, indices, and discrete selectors.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-valueInt"
+      ],
+      "source": "docs/manual/node-reference-content.json#valueInt",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueInt/"
+    },
+    {
+      "id": "nodes.time",
+      "title": "Time",
+      "description": "Emits the current animation time as seconds, a frame index, or normalized progress.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-time"
+      ],
+      "source": "docs/manual/node-reference-content.json#time",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/time/"
+    },
+    {
+      "id": "nodes.valueEnum",
+      "title": "Enum",
+      "description": "Emits a selectable enum option for mode switching and indexed logic.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-valueEnum"
+      ],
+      "source": "docs/manual/node-reference-content.json#valueEnum",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueEnum/"
+    },
+    {
+      "id": "nodes.valueVec2",
+      "title": "Vec2",
+      "description": "Emits a constant 2D vector for offsets, directions, and coordinate parameter inputs.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-valueVec2"
+      ],
+      "source": "docs/manual/node-reference-content.json#valueVec2",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/valueVec2/"
+    },
+    {
+      "id": "nodes.math",
+      "title": "Math",
+      "description": "Performs mathematical operations on two values.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-math"
+      ],
+      "source": "docs/manual/node-reference-content.json#math",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/math/"
+    },
+    {
+      "id": "nodes.dot",
+      "title": "Dot",
+      "description": "Creates labeled reroute points to organize noodle paths without changing signal data.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-dot"
+      ],
+      "source": "docs/manual/node-reference-content.json#dot",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/dot/"
+    },
+    {
+      "id": "nodes.frame",
+      "title": "Frame",
+      "description": "Groups related nodes inside a labeled frame to improve graph structure and readability.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-frame"
+      ],
+      "source": "docs/manual/node-reference-content.json#frame",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/frame/"
+    },
+    {
+      "id": "nodes.comment",
+      "title": "Comment",
+      "description": "Places textual annotations on the canvas to document intent, notes, and TODOs.",
+      "kind": "reference",
+      "audience": "beginner",
+      "app_since": "1.6.0",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "owners": [
+        "node-registry",
+        "texture-engine"
+      ],
+      "related_features": [
+        "node-comment"
+      ],
+      "source": "docs/manual/node-reference-content.json#comment",
+      "url": "https://rainerweston.github.io/goblin-node-docs/manual/nodes/comment/"
+    }
+  ]
+}
