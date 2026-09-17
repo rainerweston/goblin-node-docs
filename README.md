@@ -1,12 +1,14 @@
-Public legal/support pages for the Goblin Node app.
+Public documentation, legal, and support pages for the Goblin Node app.
 
 ## Live URLs
 
-- Privacy Policy: https://rainerweston.github.io/goblin-node-legal/privacy
-- Support: https://rainerweston.github.io/goblin-node-legal/support
+- Manual: https://rainerweston.github.io/goblin-node-docs/manual/
+- Privacy Policy: https://rainerweston.github.io/goblin-node-docs/privacy
+- Support: https://rainerweston.github.io/goblin-node-docs/support
 
 ## Files
 
+- `manual/` - generated Starlight manual, published from the private application repository
 - `privacy.md` - Privacy Policy page
 - `support.md` - Support page
 - `_config.yml` - GitHub Pages/Jekyll config
@@ -15,8 +17,8 @@ Public legal/support pages for the Goblin Node app.
 
 Use these URLs:
 
-- Privacy Policy URL: `https://rainerweston.github.io/goblin-node-legal/privacy`
-- Support URL: `https://rainerweston.github.io/goblin-node-legal/support`
+- Privacy Policy URL: `https://rainerweston.github.io/goblin-node-docs/privacy`
+- Support URL: `https://rainerweston.github.io/goblin-node-docs/support`
 
 ## Notes
 

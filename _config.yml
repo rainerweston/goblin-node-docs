@@ -1,8 +1,8 @@
-title: Goblin Node Legal
-description: Privacy Policy and Support for Goblin Node
+title: Goblin Node Documentation
+description: Manual, Privacy Policy, and Support for Goblin Node
 theme: minima
 url: "https://rainerweston.github.io"
-baseurl: "/goblin-node-legal"
+baseurl: "/goblin-node-docs"
 
 markdown: kramdown
 plugins:
