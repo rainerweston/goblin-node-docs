@@ -451,9 +451,9 @@ writing_mode: reference
 
 # What's new
 
-Read the [Goblin Node changelog](https://github.com/rainerweston/goblin-node-docs/blob/main/manual/releases/CHANGELOG.md) for the complete version history.
+Read the [Goblin Node changelog](https://rainerweston.github.io/goblin-node-docs/releases/CHANGELOG.md) for the complete version history.
 
-Release notes remain authoritative in the repository. The manual links to them instead of copying release prose that can drift from its source.
+The public changelog is a mirrored release record. The manual links to the mirror instead of copying release prose into this page.
 
 
 ---
