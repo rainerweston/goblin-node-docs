@@ -9,7 +9,7 @@ permalink: /support/
 Need help with Goblin Node?
 
 ## Contact
-Email: rainerweston@gmail.com
+Email: goblinnodedev@gmail.com
 
 ## Include in your message
 - Device model
