@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 2,
+  "appVersion": "1.6.0",
+  "exportedAt": "2026-09-08T00:00:00.000Z",
+  "project": {
+    "name": "Basic Animated Texture",
+    "description": "Deterministic Goblin Node manual example: Basic Animated Texture.",
+    "tags": [
+      "manual-example"
+    ],
+    "importSource": "manual-example",
+    "content": {
+      "nodes": [
+        {
+          "id": "time",
+          "type": "time",
+          "position": {
+            "x": 80,
+            "y": 160
+          },
+          "data": {
+            "label": "Time",
+            "mode": "normalized"
+          }
+        },
+        {
+          "id": "output",
+          "type": "graphOutput",
+          "position": {
+            "x": 460,
+            "y": 160
+          },
+          "data": {
+            "label": "Output",
+            "ports": [
+              {
+                "id": "out",
+                "label": "Base Color"
+              }
+            ]
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "time-output",
+          "source": "time",
+          "target": "output",
+          "sourceHandle": "out",
+          "targetHandle": "out"
+        }
+      ],
+      "resolution": {
+        "width": 512,
+        "height": 512
+      },
+      "globalSeed": 0,
+      "animationSettings": {
+        "fps": 30,
+        "startFrame": 0,
+        "endFrame": 59,
+        "seamlessLoop": false
+      }
+    }
+  }
+}

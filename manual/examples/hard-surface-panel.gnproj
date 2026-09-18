@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "appVersion": "1.6.0",
+  "exportedAt": "2026-09-08T00:00:00.000Z",
+  "project": {
+    "name": "Hard Surface Panel",
+    "description": "Deterministic Goblin Node manual example: Hard Surface Panel.",
+    "tags": [
+      "manual-example"
+    ],
+    "importSource": "manual-example",
+    "content": {
+      "nodes": [
+        {
+          "id": "checker",
+          "type": "checker",
+          "position": {
+            "x": 40,
+            "y": 140
+          },
+          "data": {
+            "label": "Checker",
+            "size": 6,
+            "color1": "#111827",
+            "color2": "#d1d5db",
+            "tiling": true
+          }
+        },
+        {
+          "id": "bevel",
+          "type": "bevel",
+          "position": {
+            "x": 360,
+            "y": 140
+          },
+          "data": {
+            "label": "Bevel",
+            "distance": 4,
+            "smoothing": 1
+          }
+        },
+        {
+          "id": "output",
+          "type": "graphOutput",
+          "position": {
+            "x": 680,
+            "y": 140
+          },
+          "data": {
+            "label": "Output",
+            "ports": [
+              {
+                "id": "out",
+                "label": "Base Color"
+              }
+            ]
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "checker-bevel",
+          "source": "checker",
+          "target": "bevel",
+          "sourceHandle": "out",
+          "targetHandle": "input"
+        },
+        {
+          "id": "bevel-output",
+          "source": "bevel",
+          "target": "output",
+          "sourceHandle": "height",
+          "targetHandle": "out"
+        }
+      ],
+      "resolution": {
+        "width": 512,
+        "height": 512
+      },
+      "globalSeed": 0,
+      "animationSettings": {
+        "fps": 30,
+        "startFrame": 0,
+        "endFrame": 59,
+        "seamlessLoop": false
+      }
+    }
+  }
+}

@@ -2,11 +2,10 @@
 
 Goblin Node is a procedural texture graph editor. The canonical user documentation is Markdown in this repository.
 
-- [Contribute to the user manual](https://rainerweston.github.io/goblin-node-docs/manual/contributing/): Write and review clear, accurate Goblin Node user documentation.
 - [Animation and Time](https://rainerweston.github.io/goblin-node-docs/manual/concepts/animation/): Understand frame ranges, playback time, looping, and animation export.
 - [Bit depth](https://rainerweston.github.io/goblin-node-docs/manual/concepts/bit-depth/): Choose between ordinary, high-precision, and floating-point graph processing.
 - [How graph flow works](https://rainerweston.github.io/goblin-node-docs/manual/concepts/graph-flow/): Understand how nodes, ports, and connections produce a texture.
-- [Local and web persistence](https://rainerweston.github.io/goblin-node-docs/manual/concepts/persistence/): Understand where Goblin Node stores graphs and assets on each runtime.
+- [Local persistence](https://rainerweston.github.io/goblin-node-docs/manual/concepts/persistence/): Understand where Goblin Node stores graphs and assets on iOS.
 - [Ports and image channels](https://rainerweston.github.io/goblin-node-docs/manual/concepts/ports-and-channels/): Understand typed connections and grayscale, RGB, and RGBA image data.
 - [Resolution inheritance](https://rainerweston.github.io/goblin-node-docs/manual/concepts/resolution-inheritance/): Understand how a node selects its output width and height.
 - [Goblin Node Manual](https://rainerweston.github.io/goblin-node-docs/manual/index/): Build procedural textures with practical guides and precise reference pages.

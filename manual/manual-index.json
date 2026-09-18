@@ -3,27 +3,6 @@
   "generated_from": "docs/manual",
   "pages": [
     {
-      "id": "contributing.manual",
-      "title": "Contribute to the user manual",
-      "description": "Write and review clear, accurate Goblin Node user documentation.",
-      "kind": "reference",
-      "audience": "advanced",
-      "app_since": "1.6.0",
-      "platforms": [
-        "web",
-        "ios",
-        "android"
-      ],
-      "owners": [
-        "documentation"
-      ],
-      "related_features": [
-        "manual-authoring"
-      ],
-      "source": "docs/manual/CONTRIBUTING.md",
-      "url": "https://rainerweston.github.io/goblin-node-docs/manual/contributing/"
-    },
-    {
       "id": "concepts.animation",
       "title": "Animation and Time",
       "description": "Understand frame ranges, playback time, looping, and animation export.",
@@ -31,9 +10,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -56,9 +33,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "texture-engine",
@@ -79,9 +54,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -96,15 +69,13 @@
     },
     {
       "id": "concepts.persistence",
-      "title": "Local and web persistence",
-      "description": "Understand where Goblin Node stores graphs and assets on each runtime.",
+      "title": "Local persistence",
+      "description": "Understand where Goblin Node stores graphs and assets on iOS.",
       "kind": "concept",
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "project-browser",
@@ -112,7 +83,6 @@
       ],
       "related_features": [
         "local-first-storage",
-        "web-storage",
         "graph-history"
       ],
       "source": "docs/manual/concepts/persistence.md",
@@ -126,9 +96,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -149,9 +117,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "texture-engine"
@@ -171,9 +137,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation"
@@ -192,9 +156,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -217,9 +179,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -240,9 +200,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -264,9 +222,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -289,9 +245,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -313,9 +267,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation"
@@ -335,9 +287,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "documentation",
@@ -357,9 +307,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -381,9 +329,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -405,9 +351,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor"
@@ -426,9 +370,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -450,9 +392,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "project-browser"
@@ -473,9 +413,7 @@
       "audience": "intermediate",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "project-browser"
@@ -496,9 +434,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "project-browser"
@@ -519,9 +455,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor"
@@ -542,9 +476,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "editor",
@@ -566,9 +498,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -588,9 +518,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -610,9 +538,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -632,9 +558,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -654,9 +578,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -676,9 +598,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -698,9 +618,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -720,9 +638,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -742,9 +658,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -764,9 +678,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -786,9 +698,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -808,9 +718,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -830,9 +738,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -852,9 +758,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -874,9 +778,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -896,9 +798,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -918,9 +818,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -940,9 +838,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -962,9 +858,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -984,9 +878,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1006,9 +898,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1028,9 +918,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1050,9 +938,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1072,9 +958,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1094,9 +978,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1116,9 +998,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1138,9 +1018,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1160,9 +1038,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1182,9 +1058,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1204,9 +1078,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1226,9 +1098,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1248,9 +1118,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1270,9 +1138,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1292,9 +1158,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1314,9 +1178,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1336,9 +1198,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1358,9 +1218,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1380,9 +1238,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1402,9 +1258,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1424,9 +1278,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1446,9 +1298,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1468,9 +1318,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1490,9 +1338,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1512,9 +1358,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1534,9 +1378,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1556,9 +1398,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1578,9 +1418,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1600,9 +1438,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1622,9 +1458,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1644,9 +1478,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1666,9 +1498,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1688,9 +1518,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1710,9 +1538,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1732,9 +1558,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1754,9 +1578,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1776,9 +1598,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1798,9 +1618,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1820,9 +1638,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1842,9 +1658,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1864,9 +1678,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1886,9 +1698,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1908,9 +1718,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1930,9 +1738,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1952,9 +1758,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1974,9 +1778,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -1996,9 +1798,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2018,9 +1818,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2040,9 +1838,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2062,9 +1858,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2084,9 +1878,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2106,9 +1898,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2128,9 +1918,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2150,9 +1938,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2172,9 +1958,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2194,9 +1978,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2216,9 +1998,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2238,9 +2018,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2260,9 +2038,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2282,9 +2058,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2304,9 +2078,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2326,9 +2098,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2348,9 +2118,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2370,9 +2138,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2392,9 +2158,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2414,9 +2178,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2436,9 +2198,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2458,9 +2218,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2480,9 +2238,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2502,9 +2258,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2524,9 +2278,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2546,9 +2298,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2568,9 +2318,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2590,9 +2338,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2612,9 +2358,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2634,9 +2378,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2656,9 +2398,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2678,9 +2418,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2700,9 +2438,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2722,9 +2458,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2744,9 +2478,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2766,9 +2498,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2788,9 +2518,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2810,9 +2538,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2832,9 +2558,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",
@@ -2854,9 +2578,7 @@
       "audience": "beginner",
       "app_since": "1.6.0",
       "platforms": [
-        "web",
-        "ios",
-        "android"
+        "ios"
       ],
       "owners": [
         "node-registry",

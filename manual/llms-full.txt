@@ -1,85 +1,3 @@
-Source: docs/manual/CONTRIBUTING.md
-Canonical: https://rainerweston.github.io/goblin-node-docs/manual/contributing/
-
----
-id: contributing.manual
-title: Contribute to the user manual
-description: Write and review clear, accurate Goblin Node user documentation.
-kind: reference
-audience: advanced
-app_since: 1.6.0
-platforms: [web, ios, android]
-last_verified: 2026-09-08
-owners: [documentation]
-related_features: [manual-authoring]
-writing_mode: reference
----
-
-# Contribute to the user manual
-
-Use `$goblin-manual-writing` when you create or review a manual page. The skill selects a style for the page kind.
-
-## Select a writing mode
-
-Use `guided` for tutorials and recipes. Use `reference` for concepts, nodes, and settings. Use `strict` for workflows and troubleshooting.
-
-Add `style_reason` when a page needs a mode that differs from its kind. Keep the reason short and specific.
-
-## Check the facts
-
-Read the AI docs before you search the source code. Trace each functional claim to its owning contract or implementation.
-
-Code owns behavior, ports, parameters, defaults, and entitlements. The terminology reference owns user-facing names. The brand guide owns warmth and product personality.
-
-Factual accuracy has the highest priority. Visible UI terminology has the next priority. Style scores have the lowest priority.
-
-## Check the writing
-
-Run the manual checks before you submit a change:
-
-```text
-npm run check:docs
-```
-
-The checker blocks invalid metadata and high style scores. It reports lower scores as warnings for human review.
-
-## Review examples
-
-The skill's page-pattern reference contains a short example for each mode. Do not copy the full ASD-STE100 specification into this repository.
-
-Human review is necessary for all explanatory prose. The checker measures form, but it cannot prove factual accuracy or good judgment.
-
-## Build the website
-
-Run `npm run docs:dev` for local authoring. Run `npm run check:docs` before review.
-
-The check validates metadata, stable IDs, local links, navigation, generated agent indexes, style, and the production website build.
-
-The GitHub Pages workflow deploys documentation from `main` to the `manual/` directory of the public `rainerweston/goblin-node-docs` repository. Pull requests build the same website without publishing it. The publishing workflow requires the `DOCS_DEPLOY_TOKEN` secret, preserves the repository's root legal Pages files, and leaves Jekyll enabled so those Markdown pages continue rendering.
-
-Node explanations live in `node-reference-content.json`. Do not add parameters, ports, categories, or Pro status to that file.
-
-Run `npm run docs:generate` after a node contract changes. The generator derives factual node data and creates the public node-reference index.
-
-Recipe graph packages and preview illustrations are deterministic generated artifacts. Change their generator instead of editing those files.
-
-## PDF and release copies
-
-`pdf-manifest.json` owns print order. Add each printable authored page exactly once. Generated node pages enter through `node-reference.json`.
-
-Run `npm run docs:pdf` after the normal generators. The command requires Pandoc 3, Chromium or Microsoft Edge, Python, pypdf, and ReportLab. It writes the current website PDF and an identical immutable copy for the package version.
-
-Never edit either PDF directly. Change Markdown, the print template, the stylesheet, or a factual generator, then rebuild.
-
-Use `npm run docs:impact -- --base <revision> --head HEAD` to list pages that can be affected by a code change. A person must still decide whether the prose needs revision.
-
-## Review requirement
-
-Every page with explanatory prose needs human review. Automation can generate facts and report drift, but it cannot approve prose.
-
-
----
-
 Source: docs/manual/concepts/animation.md
 Canonical: https://rainerweston.github.io/goblin-node-docs/manual/concepts/animation/
 
@@ -90,7 +8,7 @@ description: Understand frame ranges, playback time, looping, and animation expo
 kind: concept
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, texture-engine, export]
 related_features: [animation, node-time, animation-export]
@@ -120,7 +38,7 @@ description: Choose between ordinary, high-precision, and floating-point graph p
 kind: concept
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [texture-engine, export]
 related_features: [bit-depth, export-formats]
@@ -150,7 +68,7 @@ description: Understand how nodes, ports, and connections produce a texture.
 kind: concept
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, texture-engine]
 related_features: [graph-connections, graph-rendering]
@@ -181,23 +99,21 @@ Canonical: https://rainerweston.github.io/goblin-node-docs/manual/concepts/persi
 
 ---
 id: concepts.persistence
-title: Local and web persistence
-description: Understand where Goblin Node stores graphs and assets on each runtime.
+title: Local persistence
+description: Understand where Goblin Node stores graphs and assets on iOS.
 kind: concept
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [project-browser, persistence]
-related_features: [local-first-storage, web-storage, graph-history]
+related_features: [local-first-storage, graph-history]
 writing_mode: reference
 ---
 
-# Local and web persistence
+# Local persistence
 
-Goblin Node uses different persistence systems for web and native runtimes.
-
-The web runtime uses the service application programming interface and PostgreSQL storage. Native iOS and Android runtimes use local IndexedDB storage for graphs, assets, and catalog data.
+Goblin Node uses local IndexedDB storage on iOS for graphs, assets, and catalog data.
 
 Graph history is local to the device. It does not currently have a restore interface.
 
@@ -216,7 +132,7 @@ description: Understand typed connections and grayscale, RGB, and RGBA image dat
 kind: concept
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [node-registry, texture-engine]
 related_features: [ports, image-formats]
@@ -246,7 +162,7 @@ description: Understand how a node selects its output width and height.
 kind: concept
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [texture-engine]
 related_features: [render-resolution, resolution-inheritance]
@@ -276,7 +192,7 @@ description: Build procedural textures with practical guides and precise referen
 kind: reference
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation]
 related_features: [manual-navigation]
@@ -318,7 +234,7 @@ description: Preview normalized Time across a fixed 60-frame range.
 kind: recipe
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation, editor, texture-engine]
 related_features: [graph-transfer, animation, node-time]
@@ -331,7 +247,7 @@ writing_mode: guided
 
 This example connects **Time** to **Graph Output**. It uses frames `0` through `59` at 30 frames per second.
 
-1. Download the [graph package](../examples/basic-animated-texture.gnproj).
+1. Download the [graph package](/goblin-node-docs/manual/examples/basic-animated-texture.gnproj).
 2. Import the package from the Project Browser.
 3. Open the imported graph.
 4. Start preview playback.
@@ -354,7 +270,7 @@ description: Import a fixed checker graph and explore its pattern scale.
 kind: recipe
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation, editor]
 related_features: [graph-transfer, node-checker]
@@ -367,7 +283,7 @@ writing_mode: guided
 
 This 512 × 512 example connects **Checker** to **Graph Output**. It uses a fixed graph seed of `0`.
 
-1. Download the [graph package](../examples/first-procedural-texture.gnproj).
+1. Download the [graph package](/goblin-node-docs/manual/examples/first-procedural-texture.gnproj).
 2. Open the Project Browser.
 3. Open the package importer.
 4. Choose the downloaded package.
@@ -390,7 +306,7 @@ description: Turn a checker mask into a beveled panel base.
 kind: recipe
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation, texture-engine]
 related_features: [graph-transfer, node-checker, node-bevel]
@@ -403,7 +319,7 @@ writing_mode: guided
 
 This 512 × 512 example sends **Checker** through **Bevel**. The result provides a geometric height base.
 
-1. Download the [graph package](../examples/hard-surface-panel.gnproj).
+1. Download the [graph package](/goblin-node-docs/manual/examples/hard-surface-panel.gnproj).
 2. Import the package from the Project Browser.
 3. Open the imported graph.
 4. Select **Bevel**.
@@ -426,7 +342,7 @@ description: Explore a fixed Perlin Noise, Box Blur, and Levels chain.
 kind: recipe
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation, texture-engine]
 related_features: [graph-transfer, node-perlin, node-blur, node-levels]
@@ -439,7 +355,7 @@ writing_mode: guided
 
 This 512 × 512 example uses **Perlin Noise**, **Box Blur**, and **Levels**. Its fixed seed is `12345`.
 
-1. Download the [graph package](../examples/organic-noise-material.gnproj).
+1. Download the [graph package](/goblin-node-docs/manual/examples/organic-noise-material.gnproj).
 2. Import the package from the Project Browser.
 3. Open the imported graph.
 4. Select **Perlin Noise**.
@@ -462,7 +378,7 @@ description: Quantize a gradient into a small set of visible bands.
 kind: recipe
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [documentation, texture-engine]
 related_features: [graph-transfer, node-gradient, node-quantize]
@@ -475,7 +391,7 @@ writing_mode: guided
 
 This 512 × 512 example sends **Gradient** through **Quantize** to create six bands.
 
-1. Download the [graph package](../examples/stylized-retro-texture.gnproj).
+1. Download the [graph package](/goblin-node-docs/manual/examples/stylized-retro-texture.gnproj).
 2. Import the package from the Project Browser.
 3. Open the imported graph.
 4. Select **Quantize**.
@@ -498,7 +414,7 @@ description: Download the current Goblin Node manual and find immutable release 
 kind: reference
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-09
 owners: [documentation]
 related_features: [manual-pdf, release-documentation]
@@ -509,7 +425,7 @@ writing_mode: reference
 
 Download the [current Goblin Node User Manual PDF](/goblin-node-docs/manual/manual-current.pdf) for offline reading or printing.
 
-Meaningful app releases preserve an immutable, versioned PDF in the [release archive](https://github.com/rainerweston/goblin-node/tree/main/docs/releases/manuals). The live website can receive documentation corrections between app releases.
+Meaningful app releases preserve an immutable, versioned PDF in the [release archive](https://github.com/rainerweston/goblin-node-docs/tree/main/manual/releases/manuals). The live website can receive documentation corrections between app releases.
 
 The PDF identifies its app version, documentation revision, generation date, and canonical website. Generated PDFs must not be edited manually.
 
@@ -526,7 +442,7 @@ description: Find the authoritative Goblin Node release notes and version histor
 kind: reference
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-09
 owners: [documentation, release]
 related_features: [release-documentation]
@@ -535,7 +451,7 @@ writing_mode: reference
 
 # What's new
 
-Read the [Goblin Node changelog](https://github.com/rainerweston/goblin-node/blob/main/docs/releases/CHANGELOG.md) for the complete version history.
+Read the [Goblin Node changelog](https://github.com/rainerweston/goblin-node-docs/blob/main/manual/releases/CHANGELOG.md) for the complete version history.
 
 Release notes remain authoritative in the repository. The manual links to them instead of copying release prose that can drift from its source.
 
@@ -552,7 +468,7 @@ description: Build and adjust a procedural checker texture in about five minutes
 kind: tutorial
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, documentation]
 related_features: [graph-editing, node-library, output-preview]
@@ -615,7 +531,7 @@ description: Restore a blank Selected preview or Output preview.
 kind: troubleshooting
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, texture-engine]
 related_features: [selected-preview, output-preview, graph-connections]
@@ -661,7 +577,7 @@ description: Send an output from one node into an input on another node.
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor]
 related_features: [graph-connections]
@@ -702,7 +618,7 @@ description: Export one graph output or a set of outputs as image files.
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, export]
 related_features: [export, batch-export, animation-export]
@@ -720,7 +636,7 @@ Export a configured Graph Output result from the editor.
 5. Set the naming options.
 6. Confirm the operation.
 
-A single encoded file uses the ordinary download flow on web. Native platforms use their save or share flow.
+A single encoded file uses the iOS save or share flow.
 
 Multiple output files create a ZIP archive. Batch export and animation export require Pro.
 
@@ -737,7 +653,7 @@ description: Add source images and palette files to the asset catalog.
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [project-browser]
 related_features: [asset-import, native-image-picker, palette-assets]
@@ -753,7 +669,7 @@ Add an asset that an Image node or palette workflow can use.
 3. Choose a supported source.
 4. Review the new asset in the catalog.
 
-Web supports file selection and paste. Native platforms can also offer camera or photo-library choices when the operating system permits access.
+iOS can offer file, camera, or photo-library choices when the operating system permits access.
 
 Palette imports accept palette assets that use PNG, HEX, or Adobe ASE data.
 
@@ -770,7 +686,7 @@ description: Move graphs or a custom node library between Goblin Node installati
 kind: workflow
 audience: intermediate
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-15
 owners: [project-browser]
 related_features: [graph-transfer, node-library, collections]
@@ -834,7 +750,7 @@ description: Create, rename, organize, restore, and permanently remove graphs.
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [project-browser]
 related_features: [catalog, collections, trash]
@@ -871,7 +787,7 @@ description: Inspect one node, a graph output, or a material in three dimensions
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor]
 related_features: [selected-preview, output-preview, preview-3d]
@@ -901,7 +817,7 @@ description: Preserve graph changes and recover from a failed save.
 kind: workflow
 audience: beginner
 app_since: 1.6.0
-platforms: [web, ios, android]
+platforms: [ios]
 last_verified: 2026-09-08
 owners: [editor, persistence]
 related_features: [project-save, autosave, local-first-storage]

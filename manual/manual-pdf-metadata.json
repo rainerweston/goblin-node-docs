@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "appVersion": "1.7.0",
-  "documentationRevision": "cross-platform-pdf-hash",
+  "documentationRevision": "working-tree",
   "generationDate": "2026-09-18",
   "canonicalUrl": "https://rainerweston.github.io/goblin-node-docs/manual/",
   "authoredPageCount": 21,
   "generatedNodeCount": 105,
-  "sourceHash": "c47c8e29f00c8e41b99819c754f4edfd175f485fe774910ec0ae184718283b37",
-  "pdfSha256": "464973e511b1d810a0cc8a50a712999b01f021b300b966d7a91f03e83a6b02db",
+  "sourceHash": "b5b212dfd6aeefd4c32d1079c1d992c9fc04f1b0ed37c07552491c44d14569db",
+  "pdfSha256": "369ac39401dbe04c066394d0d32a5459e10731f504972ac05eee73438ad65411",
   "currentPdf": "manual-current.pdf",
   "archivePdf": "docs/releases/manuals/v1.7.0/goblin-node-manual-1.7.0.pdf"
 }
