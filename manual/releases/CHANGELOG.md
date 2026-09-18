@@ -5,6 +5,27 @@ For consumer-facing release notes see the dated files alongside this one.
 
 ---
 
+## v1.7.0 -- Sep 18, 2026
+
+### New Features
+
+- **WebGPU Graph Acceleration** -- A broad range of generators, filters, transforms, blends, and color tools now remain GPU-resident for more responsive graph editing.
+- **Advanced Paint Workflow** -- Add custom and soft brushes, polygon and lasso fills, grid snapping, precision controls, per-stroke history, and bake-down.
+- **Custom Node Libraries and Templates** -- Turn collection graphs into reusable custom nodes, import or export node-library packages, and create graphs from templates.
+- **Visual Palette Workflows** -- Import Lospec palettes and preview or select palette assets visually for Palettize and export.
+- **Guided Workspace Setup** -- First-launch workspace setup and a redesigned, mobile-friendly node reference make the editor easier to learn.
+
+### Improvements
+
+- Adjustable compact node-editing zoom, roomier initial graph layouts, clearer fit-to-view framing, and per-axis node render sizes.
+- Alpha-over blending, non-square tileable noise, improved 3D bloom controls, and configurable animation-preview cache limits.
+
+### Bug Fixes
+
+- Fixed iOS foreground recovery so unsaved graph state and dialog geometry survive app resumes.
+- Fixed scaled and non-square preview sizing, autosave interruptions during active edits, graph-instance controls, and palette import compatibility.
+- Strengthened read-only safeguards for imported Pro graphs and their dependencies.
+
 ## v1.6.0 -- Sep 7, 2026
 
 ### New Features

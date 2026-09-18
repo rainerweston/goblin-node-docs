@@ -213,13 +213,11 @@ hero:
       icon: document
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+## Use the manual
 
-<CardGrid>
-  <Card title="Learn by making" icon="rocket">Start with a working texture, then change one parameter to see how the graph responds.</Card>
-  <Card title="Find exact behavior" icon="open-book">Use concise node and concept pages when you need ports, defaults, or limits.</Card>
-  <Card title="Recover quickly" icon="setting">Troubleshooting pages start with a visible symptom and lead to a testable fix.</Card>
-</CardGrid>
+- **Learn by making.** Start with a working texture. Change one parameter to see how the graph responds.
+- **Find exact behavior.** Use node and concept pages for ports, defaults, and limits.
+- **Recover quickly.** Troubleshooting pages start with a visible symptom and lead to a testable fix.
 
 
 ---
